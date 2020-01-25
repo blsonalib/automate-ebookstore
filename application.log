@@ -1,0 +1,65 @@
+2020-01-25 14:57:20,498  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:57:20,594  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:57:20,759  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:57:36,621  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:57:37,133  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:57:37,134  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:57:41,861  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 14:57:43,920  INFO [Test worker] BaseClass:40 - set max limit 
+2020-01-25 14:57:44,160  INFO [Test worker] BaseClass:42 - clicked on filter
+2020-01-25 14:57:44,161  INFO [Test worker] BaseClass:43 - filterbook test script is completed
+2020-01-25 14:57:46,921  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:57:51,760  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:57:51,760  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:57:51,761  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:57:53,821  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 14:57:55,869  INFO [Test worker] BaseClass:40 - set max limit 
+2020-01-25 14:57:56,118  INFO [Test worker] BaseClass:42 - clicked on filter
+2020-01-25 14:57:56,119  INFO [Test worker] BaseClass:43 - filterbook test script is completed
+2020-01-25 14:57:59,945  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:05,319  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:58:05,320 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-01-25 14:58:05,320  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:05,321 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-01-25 14:58:05,321  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:58:07,396  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 14:58:09,479  INFO [Test worker] BaseClass:40 - set max limit 
+2020-01-25 14:58:09,717  INFO [Test worker] BaseClass:42 - clicked on filter
+2020-01-25 14:58:09,718  INFO [Test worker] BaseClass:43 - filterbook test script is completed
+2020-01-25 14:58:12,616  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:17,426  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:58:17,426  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:17,427  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:58:19,501  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 14:58:21,622  INFO [Test worker] BaseClass:40 - set max limit 
+2020-01-25 14:58:21,862  INFO [Test worker] BaseClass:42 - clicked on filter
+2020-01-25 14:58:21,863  INFO [Test worker] BaseClass:43 - filterbook test script is completed
+2020-01-25 14:58:25,879  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:25,894 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-01-25 14:58:25,895 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-01-25 14:58:30,798  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:58:30,799  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:30,799  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:58:32,875  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 14:58:34,944  INFO [Test worker] BaseClass:40 - set max limit 
+2020-01-25 14:58:35,182  INFO [Test worker] BaseClass:42 - clicked on filter
+2020-01-25 14:58:35,182  INFO [Test worker] BaseClass:43 - filterbook test script is completed
+2020-01-25 14:58:39,396  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:44,271  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:58:44,271  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:44,272  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:58:46,333  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 14:58:48,409  INFO [Test worker] BaseClass:40 - set max limit 
+2020-01-25 14:58:48,651  INFO [Test worker] BaseClass:42 - clicked on filter
+2020-01-25 14:58:48,652  INFO [Test worker] BaseClass:43 - filterbook test script is completed
+2020-01-25 14:58:51,555  INFO [Test worker] BaseClass:27 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:56,323  INFO [Test worker] BaseClass:38 - config properties file is loaded
+2020-01-25 14:58:56,323  INFO [Test worker] BaseClass:30 - initialized driver and object of FilterBookPage is created
+2020-01-25 14:58:56,324  INFO [Test worker] BaseClass:36 - ****filterbook test script started****
+2020-01-25 14:59:04,327  INFO [Test worker] BaseClass:38 - set min limit
+2020-01-25 15:00:26,500 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-01-25 15:00:26,501 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-01-25 15:00:26,501 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-01-25 15:00:26,501 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-01-25 15:00:26,501 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-01-25 15:00:26,501 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down

@@ -2,6 +2,7 @@ package com.ebookstore.base;
 
 import com.ebookstore.util.Utility;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,21 +17,25 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
+    Logger log = Logger.getLogger(BaseClass.class);
     public static WebDriver driver;
     public static Properties property;
     public static WebDriverWait wait;
-    public static FileInputStream fis;
+    public static FileInputStream fileInputStream;
+
+
     static {
-        System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver");
-        System.setProperty("webdriver.gecko.driver","./Drivers/geckodriver");
+        System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
+        System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver");
     }
 
     public BaseClass() {
 
         property = new Properties();
         try {
-            fis = new FileInputStream("./src/main/resources/TestData/config.properties");
-            property.load(fis);
+            fileInputStream = new FileInputStream("./src/main/java/com/ebookstore/config/config.properties");
+            property.load(fileInputStream);
+            log.info("config properties file is loaded");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -40,18 +45,13 @@ public class BaseClass {
         if (property.getProperty("browser").equals("chrome")) {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            Map<String, Object> prefs = new HashMap<String, Object>();
-            prefs.put("profile.default_content_setting_values.notifications", 1);
-//1-Allow, 2-Block, 0-default
-            options.setExperimentalOption("prefs", prefs);
             options.addArguments("disable-infobars");
+            options.addArguments("--disable-notifications");
             driver = new ChromeDriver(options);
-
-        } else if(property.getProperty("browser").equals("firefox")){
+        } else if (property.getProperty("browser").equals("firefox")) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-        }
-        else {
+        } else {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         }

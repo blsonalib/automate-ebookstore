@@ -19,7 +19,7 @@ public class TestSearchBookByAutherOrTitle extends BaseClass {
     @DataProvider(name = "SearchBook")
     public Object[][] passData() throws IOException {
 
-        return JsonReader.getdata(IAutoConstants.filePathForSearch, "SearchBook", 5, 1);
+        return JsonReader.getdata(IAutoConstants.SEARCH_BOOK_JSON_FILE_PATH, "SearchBook", 2, 1);
     }
 
     @BeforeMethod

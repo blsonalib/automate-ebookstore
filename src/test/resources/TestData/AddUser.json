@@ -1,0 +1,59 @@
+{
+  "AddUserTestData": [
+    {
+      "username": "Laxman",
+      "mobile": "1425634152",
+      "pincode": "142563",
+      "locality": "sdfgd",
+      "address": "fdgfg",
+      "emailId": "dfsdf@gmail.com",
+      "city": "dgdfg",
+      "landmark": "dgdfg",
+      "type": "home"
+    },
+    {
+      "username": "^%$%Laxman",
+      "mobile": "1425634152",
+      "pincode": "142563",
+      "locality": "sdfgd",
+      "address": "fdgfg",
+      "emailId": "dfsdf@gmail.com",
+      "city": "dgdfg",
+      "landmark": "dgdfg",
+      "type": "home"
+    },
+    {
+      "username": "Laxman",
+      "mobile": "703049304",
+      "pincode": "142563",
+      "locality": "sdfgd",
+      "address": "fdgfg",
+      "emailId": "dfsdf@gmail.com",
+      "city": "dgdfg",
+      "landmark": "dgdfg",
+      "type": "home"
+    },
+    {
+      "username": "Laxman",
+      "mobile": "1425634152",
+      "pincode": "12563",
+      "locality": "sdfgd",
+      "address": "fdgfg",
+      "emailId": "dfsdf@gmail.com",
+      "city": "dgdfg",
+      "landmark": "dgdfg",
+      "type": "home"
+    },
+    {
+      "username": "Laxman",
+      "mobile": "1425634152",
+      "pincode": "142563",
+      "locality": "sdfgd",
+      "address": "fdgfg",
+      "emailId": "dfsdfgmail.com",
+      "city": "dgdfg",
+      "landmark": "dgdfg",
+      "type": "home"
+    }
+  ]
+}

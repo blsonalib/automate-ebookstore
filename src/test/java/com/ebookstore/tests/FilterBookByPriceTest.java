@@ -19,7 +19,7 @@ public class FilterBookByPriceTest extends BaseClass {
     @DataProvider(name = "FilterBooks TestData")
     public Object[][] passData() throws IOException {
 
-        return JsonReader.getdata(IAutoConstants.filePath, "FilterBooks TestData", 7, 2);
+        return JsonReader.getdata(IAutoConstants.FILTER_BOOK_JSON_FILE_PATH, "FilterBooks TestData", 7, 2);
     }
 
     @BeforeMethod
@@ -31,10 +31,9 @@ public class FilterBookByPriceTest extends BaseClass {
     }
 
     @Test(dataProvider = "FilterBooks TestData")
-    public void givenMinimumPriceAndMaximumPriceLimit_WhenBooksAvailable_ThenShouldReturnBooksList(String min,String max) throws InterruptedException, AWTException {
-        System.out.println(max+"+++++++++++++++"+min);
+    public void givenMinimumPriceAndMaximumPriceLimit_WhenBooksAvailable_ThenShouldReturnBooksList(String min, String max) throws InterruptedException, AWTException {
         log.info("****filterbook test script started****");
-        filterBookByPricePage.setMiniumumLimit(min);
+        filterBookByPricePage.setMinimumLimit(min);
         log.info("set min limit");
         filterBookByPricePage.setMaximumLimit(max);
         log.info("set max limit ");

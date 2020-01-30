@@ -23,15 +23,17 @@ public class FilterBookByPricePage extends BaseClass {
     }
 
 
-    public void setMiniumumLimit(String miniumumLimitValue) throws InterruptedException, AWTException {
+    public void setMinimumLimit(String miniumumLimitValue) throws InterruptedException, AWTException {
         Robot robot = new Robot();
         robot.mouseMove(1035, 225);
         Thread.sleep(2000);
+        miniumumLimit.clear();
         miniumumLimit.sendKeys(miniumumLimitValue);
     }
 
     public void setMaximumLimit(String maximumLimitValue) throws InterruptedException {
         Thread.sleep(2000);
+        maximumLimit.clear();
         maximumLimit.sendKeys(maximumLimitValue);
     }
 
